@@ -1,0 +1,23 @@
+/*
+Descricao: Formulários JavaScript 
+nome_arquivo: Formulários JavaScript 
+nome_exercicio: Lista de itens 
+nome_aluno: Junio Henrique
+email_aluno: junio.henrique@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+hr {
+  margin: 10px 0;
+  max-width: 220px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 6px;
+}

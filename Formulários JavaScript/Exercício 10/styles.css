@@ -1,0 +1,66 @@
+/*
+Descricao: Formulários JavaScript 
+nome_arquivo: Formulários JavaScript 
+nome_exercicio: Alteração modo claro e escuro 
+nome_aluno: Junio Henrique
+email_aluno: junio.henrique@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit, sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(27, 26, 26);
+  transition: .5s;
+}
+
+h1{
+  color: white;
+}
+
+.trilho{
+  width: 350px;
+  height: 150px;
+  border-radius: 150px;
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(59, 55, 55);
+}
+
+.trilho .indicador{
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  transform: scale(.9);
+  position: absolute;
+  left: 0;
+  transition: .5s;
+}
+
+.trilho.dark{
+  background-color: gray;
+}
+
+.trilho.dark .indicador{
+  left: 200px;
+  background-color: white;
+}
+
+body.dark{
+  background-color: grey;
+}
+
+body.dark h1{
+  color:black;
+}

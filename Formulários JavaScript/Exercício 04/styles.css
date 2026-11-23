@@ -1,0 +1,21 @@
+/*
+Descricao: Formulários JavaScript 
+nome_arquivo: Formulários JavaScript 
+nome_exercicio: Formulário cadastro de Produto 
+nome_aluno: Junio Henrique
+email_aluno: junio.henrique@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#saida-json {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
